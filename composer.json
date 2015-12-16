@@ -14,7 +14,7 @@
 		"silverstripe/blog": "^2.2",
 		"silverstripe-australia/gridfieldextensions": "^1.2"
 	},
-	"extras": {
+	"extra": {
 		"installer-name": "blog-sortable-categories"
 	}
 }
