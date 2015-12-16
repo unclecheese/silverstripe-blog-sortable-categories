@@ -1,0 +1,20 @@
+{
+	"name": "unclecheese/silverstripe-blog-sortable-categories",
+	"description": "Makes the categories in silverstripe/blog orderable",
+    "type": "silverstripe-module",
+    "keywords": ["silverstripe", "blog", "sortable", "categories"],	
+	"license": "BSD-3-Clause",
+	"authors": [
+    	{
+        	"name": "Uncle Cheese",
+        	"email": "unclecheese@leftandmain.com"
+    	}
+    ],    
+	"require": {
+		"silverstripe/blog": "^2.2",
+		"silverstripe-australia/gridfieldextensions": "^1.2"
+	},
+	"extras": {
+		"installer-name": "blog-sortable-categories"
+	}
+}
