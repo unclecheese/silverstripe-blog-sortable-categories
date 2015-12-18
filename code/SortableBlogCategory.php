@@ -5,17 +5,18 @@
  * @author  Aaron Carlino <aaron@silverstripe.com>
  * @package  unclecheese/blog-sortable-categories
  */
-class SortableBlogCategory extends DataExtension {
+class SortableBlogCategory extends DataExtension
+{
 
-	/**
-	 * @var array
-	 */
-	private static $db = array (
-		'Sort' => 'Int'
-	);
+    /**
+     * @var array
+     */
+    private static $db = array(
+        'Sort' => 'Int'
+    );
 
-	/**	 
-	 * @var string
-	 */
-	private static $default_sort = 'Sort ASC';
+    /**	 
+     * @var string
+     */
+    private static $default_sort = 'Sort ASC';
 }
